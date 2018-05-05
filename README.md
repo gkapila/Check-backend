@@ -81,7 +81,7 @@ Modify a course/task instance
 #### General Endpoint
 http://104.196.110.31/check/course
 
-#### Endpoint for getting all objects in table
+#### Endpoint for getting all objects in table (GET)
 http://104.196.110.31/check/course/all	
 
 #### Add course with name and category (POST)
@@ -205,7 +205,7 @@ Output:
 #### General Endpoint
 http://104.196.110.31/check/task
 
-#### Endpoint for getting all objects in table
+#### Endpoint for getting all objects in table (GET)
 http://104.196.110.31/check/task/all
 
 #### Add task with name, description, due_date, and course_name (POST)
