@@ -9,7 +9,7 @@ https://github.com/gkapila/Check-Backend6
 * the backend repo you are looking at currently has our updated README file and some other fixed endpoints that are not actually in use by the frontend or being run on the server
 
 ## Description
-This repository contains the backend code to our final project for Cornell's Spring 2018 Principles of Backend Engineering Course (CS 1998, run by CU AppDev). We implemented the backend for an app that allows a user to keep track of tasks for different courses.
+This repository contains the backend code to our final project for Cornell's Spring 2018 Principles of Backend Engineering Course (CS 1998, run by CU AppDev). We implemented the backend for an app that allows a user to keep track of tasks for different courses. We used the Flask Boilerplate provided to us as a basis for the backend. The backend is fully deployed using Docker and Google Cloud Services.
 
 ## Tools/Technologies:
 * Language: [`Python 2.7`](https://www.python.org/download/releases/2.7/)
@@ -64,19 +64,15 @@ Modify a course/task instance
 
 ### Tables
 
-#### Course
-Fields:
+#### Course Fields:
 * name
 * category
 
-#### Task
-Fields:
+#### Task Fields:
 * name
 * description
 * due_date
 * course_name
-
-We used the Flask Boilerplate provided to us as a basis for the backend. The backend is fully deployed using Docker and Google Cloud Services.
 
 ## Backend Endpoints + Methods/Outputs
 
