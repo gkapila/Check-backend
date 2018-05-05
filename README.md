@@ -1,9 +1,9 @@
 # Check (Backend) 
 
-## Link for full backend README:
+### Link for full backend README:
 https://github.com/gkapila/Check-Backend/
 
-## Backend repo that our server uses:
+### Backend repo that our server uses:
 https://github.com/gkapila/Check-Backend6
 * please look at files in that repo for what is being used by frontend and being run on the server (we did not want to edit that repo in case our server stops working)
 * the backend repo you are looking at currently has our updated README file and some other fixed endpoints that are not actually in use by the frontend or being run on the server
@@ -84,7 +84,8 @@ We used the Flask Boilerplate provided to us as a basis for the backend. The bac
 http://104.196.110.31
 
 ### Course Table Methods 
-Two General Endpoints 
+
+#### Two General Endpoints 
 * General Endpoint: http://104.196.110.31/check/course
 * Endpoints for getting all objects in table: http://104.196.110.31/check/course/all	
 
@@ -204,8 +205,9 @@ Output:
 }
 ````
 
-### Task Table Methods 
-Two General Endpoints: 
+### Task Table Methods
+
+#### Two General Endpoints: 
 * General Endpoint: http://104.196.110.31/check/task
 * Endpoints for all objects in database: http://104.196.110.31/check/task/all
 
