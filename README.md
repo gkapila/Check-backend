@@ -1,8 +1,10 @@
 # Check (Backend) 
 
-## LINK FOR FULL BACKEND README: https://github.com/gkapila/Check-Backend/
+## Link for full backend README:
+https://github.com/gkapila/Check-Backend/
 
-## BACKEND REPO THAT OUR SERVER USES: https://github.com/gkapila/Check-Backend6
+## Backend repo that our server uses:
+https://github.com/gkapila/Check-Backend6
 * please look at files in that repo for what is being used by frontend and being run on the server (we did not want to edit that repo in case our server stops working)
 * the backend repo you are looking at currently has our updated README file and some other fixed endpoints that are not actually in use by the frontend or being run on the server
 
