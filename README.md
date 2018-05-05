@@ -62,28 +62,27 @@ Modify a course/task instance
 └── test.py
 ````
 
-### Tables
+## Tables
 
-#### Course Fields:
+### Course
 * name
 * category
 
-#### Task Fields:
+### Task
 * name
 * description
 * due_date
 * course_name
 
-## Backend Endpoints + Methods/Outputs
+## Network IP Address: http://104.196.110.31
 
-### Network IP Address
-http://104.196.110.31
+## Course Table Backend Endpoints + Methods/Outputs 
 
-### Course Table Methods 
+#### General Endpoint
+http://104.196.110.31/check/course
 
-#### Two General Endpoints 
-* General Endpoint: http://104.196.110.31/check/course
-* Endpoints for getting all objects in table: http://104.196.110.31/check/course/all	
+#### Endpoint for getting all objects in table
+http://104.196.110.31/check/course/all	
 
 #### Add course with name and category (POST)
 * Endpoint (General): http://104.196.110.31/check/course 
@@ -201,11 +200,13 @@ Output:
 }
 ````
 
-### Task Table Methods
+## Task Table Backend Endpoints + Methods/Outputs
 
-#### Two General Endpoints: 
-* General Endpoint: http://104.196.110.31/check/task
-* Endpoints for all objects in database: http://104.196.110.31/check/task/all
+#### General Endpoint
+http://104.196.110.31/check/task
+
+#### Endpoint for getting all objects in table
+http://104.196.110.31/check/task/all
 
 #### Add task with name, description, due_date, and course_name (POST)
 * Endpoint: http://104.196.110.31/check/task
