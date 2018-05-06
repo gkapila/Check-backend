@@ -3,11 +3,12 @@ from datetime import datetime
 
 
 class Task(db.Model):
-  _tablename_ = 'task'
-  name        = db.Column(db.String(256), primary_key=True, nullable=False, unique=True)
-  description = db.Column(db.String(256), nullable=True)
-  due_date    = db.Column(db.String(256), nullable=True)
-  course_name = db.Column(db.String(256), nullable=False)
+  _tablename_    = 'task'
+  name           = db.Column(db.String(256), primary_key=True, nullable=False, unique=True)
+  description    = db.Column(db.String(256), nullable=True)
+  due_date       = db.Column(db.String(256), nullable=True)
+  course_name    = db.Column(db.String(256), nullable=False, db.ForeignKey('course.course_name'), nullable=False)
+  course_foreign = db.relationship('Course', backref=db.backref('course', lazy=True))
 
 
   def __init__(self, **kwargs):
