@@ -1,7 +1,7 @@
 # Check (Backend) 
 
 ## Description
-This repository contains the backend code to our HackDev challenge project for Cornell's Spring 2018 Principles of Backend Engineering Course (CS 1998, run by CU AppDev). We implemented the backend for an app that allows a user to keep track of tasks for different courses (link to frontend is [`here`](https://github.com/nanditamohan/check)). The backend was fully deployed during the HackDev challenge week. Backend contributors: Garima Kapila (gk347@cornell.edu), Riddhima Narravula (rrn23@cornell.edu)
+This repository contains the backend code to our HackDev challenge project for Cornell's Spring 2018 Principles of Backend Engineering Course (CS 1998, run by CU AppDev). We implemented the backend for an app that allows a user to keep track of tasks for different courses (link to frontend is [here](https://github.com/nanditamohan/check)). The backend was fully deployed during the HackDev challenge week. Backend contributors: Garima Kapila (gk347@cornell.edu), Riddhima Narravula (rrn23@cornell.edu)
 
 ## Tools/Technologies:
 * Language: [`Python 2.7`](https://www.python.org/download/releases/2.7/)
