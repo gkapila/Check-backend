@@ -1,15 +1,7 @@
 # Check (Backend) 
 
-### Link for full backend README:
-https://github.com/gkapila/Check-Backend/
-
-### Backend repo that our server uses:
-https://github.com/gkapila/Check-Backend6
-* please look at files in that repo for what is being used by frontend and being run on the server (we did not want to edit that repo in case our server stops working)
-* the backend repo you are looking at currently has our updated README file and some other fixed endpoints that are not actually in use by the frontend or being run on the server
-
 ## Description
-This repository contains the backend code to our final project for Cornell's Spring 2018 Principles of Backend Engineering Course (CS 1998, run by CU AppDev). We implemented the backend for an app that allows a user to keep track of tasks for different courses. We used the Flask Boilerplate provided to us as a basis for the backend. The backend is fully deployed using Docker and Google Cloud Services.
+This repository contains the backend code to our HackDev challenge project for Cornell's Spring 2018 Principles of Backend Engineering Course (CS 1998, run by CU AppDev). We implemented the backend for an app that allows a user to keep track of tasks for different courses (link to frontend is [`here`](https://github.com/nanditamohan/check)). The backend was fully deployed during the HackDev challenge week. Backend contributors: Garima Kapila (gk347@cornell.edu), Riddhima Narravula (rrn23@cornell.edu)
 
 ## Tools/Technologies:
 * Language: [`Python 2.7`](https://www.python.org/download/releases/2.7/)
